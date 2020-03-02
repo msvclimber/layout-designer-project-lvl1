@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3.5em;
+  background-color: white;
+  outline: 1px solid green;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: bold;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8em;
+  margin: 0 0.4em;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo-header img {
+  width: 2em;
+  height: 2em;
+}
+
+.logo-header span {
+  margin: 0 1em;
+}
