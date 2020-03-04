@@ -78,3 +78,36 @@ button {
   color: white;
   border-radius: 5px;
 }
+
+.advantages {
+  display: flex;
+  justify-content: center;
+}
+
+.advantages article {
+  margin: 1.5em 1em;
+  width: 22%;
+}
+
+.advantages p {
+  font-size: 0.67em;
+}
+
+.imgtext {
+  display: flex;
+  justify-content: center;
+}
+
+.imgtext article {
+  margin: 1.5em 1em;
+  width: 30%;
+}
+
+.imgtext img {
+  margin: 2.5em 4em;
+  width: 22%;
+}
+
+.imgtext p {
+  font-size: 0.67em;
+}
